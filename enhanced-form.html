@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenya Tech Summit 2025 - Registration Form</title>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Kenya Tech Summit 2025</h1>
+            <p>Empowering Kenya's Digital Future - Join East Africa's Premier Technology Conference</p>
+            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&h=200&fit=crop&crop=center" 
+                 alt="Technology conference in Nairobi with Kenyan tech professionals networking" 
+                 width="400" 
+                 height="200">
+        </header>
+
+        <main>
+            <section>
+                <h2>Summit Highlights</h2>
+                <ul>
+                    <li>100+ Leading speakers from Kenya, East Africa, and globally</li>
+                    <li>Focus on fintech innovations like M-Pesa and mobile banking</li>
+                    <li>AgriTech solutions for Kenyan farmers</li>
+                    <li>E-commerce and digital marketplace development</li>
+                    <li>Government digitization initiatives</li>
+                    <li>Tech startup incubation and funding opportunities</li>
+                    <li>Networking with Nairobi's Silicon Savannah ecosystem</li>
+                    <li>Traditional Kenyan lunch and refreshments</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Pricing Information</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Ticket Type</th>
+                            <th>Price (KES)</th>
+                            <th>Price (USD)</th>
+                            <th>Benefits</th>
+                            <th>Availability</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Early Bird</td>
+                            <td>KES 35,000</td>
+                            <td>$250</td>
+                            <td>Full access + Workshop materials + Networking dinner</td>
+                            <td>Limited</td>
+                        </tr>
+                        <tr>
+                            <td>Regular</td>
+                            <td>KES 50,000</td>
+                            <td>$350</td>
+                            <td>Full access + Workshop materials</td>
+                            <td>Available</td>
+                        </tr>
+                        <tr>
+                            <td>Student</td>
+                            <td>KES 15,000</td>
+                            <td>$100</td>
+                            <td>Full access (Valid student ID required)</td>
+                            <td>Available</td>
+                        </tr>
+                        <tr>
+                            <td>Corporate</td>
+                            <td>KES 75,000</td>
+                            <td>$525</td>
+                            <td>Premium seating + Exclusive CEO roundtable</td>
+                            <td>Limited</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>Event Schedule</h2>
+                <ol>
+                    <li>Registration and Kenyan Coffee Welcome (7:30 AM - 8:30 AM)</li>
+                    <li>Opening Keynote: Kenya's Digital Transformation (8:30 AM - 9:30 AM)</li>
+                    <li>Panel: Fintech Revolution in East Africa (9:45 AM - 11:00 AM)</li>
+                    <li>Tea Break with Mandazi (11:00 AM - 11:30 AM)</li>
+                    <li>Breakout Sessions: AgriTech & E-commerce (11:30 AM - 12:45 PM)</li>
+                    <li>Traditional Kenyan Lunch Break (12:45 PM - 2:00 PM)</li>
+                    <li>Hands-on: Mobile App Development Workshop (2:00 PM - 3:30 PM)</li>
+                    <li>Startup Pitch Competition (3:45 PM - 4:45 PM)</li>
+                    <li>Closing Ceremony and Awards (5:00 PM - 6:00 PM)</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>Featured Speakers</h2>
+                <dl>
+                    <dt>Dr. Bitange Ndemo</dt>
+                    <dd>Former Permanent Secretary ICT, Chairman Blockchain Association of Kenya</dd>
+                    
+                    <dt>Martha Wangari</dt>
+                    <dd>CEO of Kenyan FinTech Solutions, Pioneer in mobile banking innovations</dd>
+                    
+                    <dt>Samuel Kiprotich</dt>
+                    <dd>Founder of AgriTech Kenya, Developer of farmer-focused mobile applications</dd>
+                    
+                    <dt>Grace Mutindi</dt>
+                    <dd>Director of Digital Transformation, Government of Kenya</dd>
+                    
+                    <dt>James Mwangi</dt>
+                    <dd>CEO of Equity Bank, Leader in digital banking solutions</dd>
+                </dl>
+            </section>
+
+            <form id="registrationForm" action="#" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    
+                    <p>
+                        <label for="firstName">First Name *</label><br>
+                        <input type="text" 
+                               id="firstName" 
+                               name="firstName" 
+                               required 
+                               placeholder="e.g., John"
+                               autocomplete="given-name"
+                               minlength="2"
+                               maxlength="50">
+                    </p>
+                    
+                    <p>
+                        <label for="lastName">Last Name *</label><br>
+                        <input type="text" 
+                               id="lastName" 
+                               name="lastName" 
+                               required 
+                               placeholder="e.g., Kamau"
+                               autocomplete="family-name"
+                               minlength="2"
+                               maxlength="50">
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address *</label><br>
+                        <input type="email" 
+                               id="email" 
+                               name="email" 
+                               required 
+                               placeholder="john.kamau@gmail.com"
+                               autocomplete="email">
+                    </p>
+                    
+                    <p>
+                        <label for="phone">Phone Number *</label><br>
+                        <input type="tel" 
+                               id="phone" 
+                               name="phone" 
+                               required 
+                               placeholder="+254 7XX XXX XXX"
+                               autocomplete="tel"
+                               pattern="[\+]?254[0-9\s\-]{9,12}|0[7][0-9\s\-]{8,10}">
+                    </p>
+
+                    <p>
+                        <label for="nationalId">National ID Number</label><br>
+                        <input type="text" 
+                               id="nationalId" 
+                               name="nationalId" 
+                               placeholder="12345678"
+                               pattern="[0-9]{8}"
+                               maxlength="8">
+                    </p>
+
+                    <p>
+                        <label for="birthDate">Date of Birth</label><br>
+                        <input type="date" 
+                               id="birthDate" 
+                               name="birthDate" 
+                               autocomplete="bday"
+                               min="1940-01-01" 
+                               max="2006-12-31">
+                    </p>
+                    
+                    <p>
+                        <label for="website">Personal/Company Website</label><br>
+                        <input type="url" 
+                               id="website" 
+                               name="website" 
+                               placeholder="https://yourwebsite.co.ke"
+                               autocomplete="url">
+                    </p>
+
+                    <p>
+                        <label for="county">County of Residence *</label><br>
+                        <select id="county" name="county" required>
+                            <option value="">Select your county</option>
+                            <option value="nairobi">Nairobi</option>
+                            <option value="mombasa">Mombasa</option>
+                            <option value="kisumu">Kisumu</option>
+                            <option value="nakuru">Nakuru</option>
+                            <option value="eldoret">Uasin Gishu (Eldoret)</option>
+                            <option value="thika">Kiambu</option>
+                            <option value="machakos">Machakos</option>
+                            <option value="meru">Meru</option>
+                            <option value="nyeri">Nyeri</option>
+                            <option value="kakamega">Kakamega</option>
+                            <option value="other">Other County</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="registrationId">Registration ID (Auto-generated)</label><br>
+                        <input type="text" 
+                               id="registrationId" 
+                               name="registrationId" 
+                               value="KTS2025-0001" 
+                               readonly>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Professional Information</legend>
+                    
+                    <p>
+                        <label for="company">Company/Organization *</label><br>
+                        <input type="text" 
+                               id="company" 
+                               name="company" 
+                               required 
+                               placeholder="e.g., Safaricom, Equity Bank, KCB"
+                               autocomplete="organization">
+                    </p>
+                    
+                    <p>
+                        <label for="jobTitle">Job Title *</label><br>
+                        <input type="text" 
+                               id="jobTitle" 
+                               name="jobTitle" 
+                               required 
+                               placeholder="e.g., Software Developer, Product Manager"
+                               autocomplete="organization-title">
+                    </p>
+
+                    <p>
+                        <label for="industry">Industry Sector</label><br>
+                        <select id="industry" name="industry">
+                            <option value="">Select industry</option>
+                            <option value="fintech">FinTech/Banking</option>
+                            <option value="agritech">AgriTech</option>
+                            <option value="e-commerce">E-commerce</option>
+                            <option value="telecom">Telecommunications</option>
+                            <option value="government">Government</option>
+                            <option value="education">Education</option>
+                            <option value="healthcare">Healthcare</option>
+                            <option value="media">Media & Entertainment</option>
+                            <option value="logistics">Logistics & Transport</option>
+                            <option value="energy">Energy & Utilities</option>
+                            <option value="startup">Tech Startup</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="experience">Years of Experience</label><br>
+                        <input type="number" 
+                               id="experience" 
+                               name="experience" 
+                               min="0" 
+                               max="50" 
+                               placeholder="5">
+                    </p>
+                    
+                    <p>
+                        <label for="salary">Annual Salary Range (KES)</label><br>
+                        <select id="salary" name="salary">
+                            <option value="">Select range</option>
+                            <option value="under-500k">Under KES 500,000</option>
+                            <option value="500k-1m">KES 500,000 - 1,000,000</option>
+                            <option value="1m-2m">KES 1,000,000 - 2,000,000</option>
+                            <option value="2m-3m">KES 2,000,000 - 3,000,000</option>
+                            <option value="3m-5m">KES 3,000,000 - 5,000,000</option>
+                            <option value="over-5m">Over KES 5,000,000</option>
+                        </select>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Summit Preferences</legend>
+                    
+                    <p>
+                        <strong>Ticket Type *</strong><br>
+                        <input type="radio" id="earlyBird" name="ticketType" value="early-bird" required>
+                        <label for="earlyBird">Early Bird (KES 35,000)</label><br>
+                        
+                        <input type="radio" id="regular" name="ticketType" value="regular" required>
+                        <label for="regular">Regular (KES 50,000)</label><br>
+                        
+                        <input type="radio" id="student" name="ticketType" value="student" required>
+                        <label for="student">Student (KES 15,000)</label><br>
+                        
+                        <input type="radio" id="corporate" name="ticketType" value="corporate" required>
+                        <label for="corporate">Corporate (KES 75,000)</label>
+                    </p>
+
+                    <p>
+                        <strong>Topics of Interest (Select all that apply)</strong><br>
+                        <input type="checkbox" id="fintech" name="interests" value="fintech">
+                        <label for="fintech">FinTech & Mobile Banking</label><br>
+                        
+                        <input type="checkbox" id="agritech" name="interests" value="agritech">
+                        <label for="agritech">AgriTech Solutions</label><br>
+                        
+                        <input type="checkbox" id="ecommerce" name="interests" value="ecommerce">
+                        <label for="ecommerce">E-commerce & Digital Marketplaces</label><br>
+                        
+                        <input type="checkbox" id="mobile" name="interests" value="mobile-development">
+                        <label for="mobile">Mobile App Development</label><br>
+                        
+                        <input type="checkbox" id="blockchain" name="interests" value="blockchain">
+                        <label for="blockchain">Blockchain & Cryptocurrency</label><br>
+                        
+                        <input type="checkbox" id="ai" name="interests" value="artificial-intelligence">
+                        <label for="ai">Artificial Intelligence</label><br>
+                        
+                        <input type="checkbox" id="govtech" name="interests" value="gov-tech">
+                        <label for="govtech">Government Digital Services</label><br>
+                        
+                        <input type="checkbox" id="startup" name="interests" value="startup-ecosystem">
+                        <label for="startup">Startup Ecosystem</label>
+                    </p>
+
+                    <p>
+                        <label for="sessions">Preferred Session Language</label><br>
+                        <select id="sessions" name="sessions">
+                            <option value="english">English</option>
+                            <option value="swahili">Kiswahili</option>
+                            <option value="mixed">Mixed (English/Kiswahili)</option>
+                        </select>
+                    </p>
+                    
+                    <p>
+                        <label for="dietary">Dietary Requirements</label><br>
+                        <select id="dietary" name="dietary">
+                            <option value="">None</option>
+                            <option value="vegetarian">Vegetarian</option>
+                            <option value="vegan">Vegan</option>
+                            <option value="halal">Halal</option>
+                            <option value="no-beef">No Beef</option>
+                            <option value="no-pork">No Pork</option>
+                            <option value="gluten-free">Gluten-free</option>
+                            <option value="other">Other (specify in comments)</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="accommodation">Special Needs/Accommodation</label><br>
+                        <textarea id="accommodation" 
+                                  name="accommodation" 
+                                  rows="3" 
+                                  cols="50"
+                                  placeholder="Please describe any accessibility needs or special accommodations required"></textarea>
+                    </p>
+
+                    <p>
+                        <label for="transport">Transportation Assistance Needed?</label><br>
+                        <select id="transport" name="transport">
+                            <option value="none">No assistance needed</option>
+                            <option value="directions">Directions to venue</option>
+                            <option value="shuttle">Shuttle service from CBD</option>
+                            <option value="parking">Parking information</option>
+                            <option value="matatu">Matatu routes</option>
+                        </select>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    
+                    <p>
+                        <label for="referral">How did you hear about Kenya Tech Summit?</label><br>
+                        <select id="referral" name="referral">
+                            <option value="">Select source</option>
+                            <option value="social-media">Social Media (Twitter, LinkedIn, Facebook)</option>
+                            <option value="whatsapp">WhatsApp groups</option>
+                            <option value="colleague">Colleague/Friend</option>
+                            <option value="tech-blog">Kenyan tech blog</option>
+                            <option value="radio">Radio (Capital FM, Classic 105)</option>
+                            <option value="newspaper">Newspaper (Daily Nation, Standard)</option>
+                            <option value="previous-attendee">Previous summit attendee</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="mpesa">M-Pesa Phone Number (for payment)</label><br>
+                        <input type="tel" 
+                               id="mpesa" 
+                               name="mpesa" 
+                               placeholder="+254 7XX XXX XXX"
+                               pattern="[\+]?254[0-9\s\-]{9,12}|0[7][0-9\s\-]{8,10}">
+                    </p>
+                    
+                    <p>
+                        <label for="promo">Promo Code</label><br>
+                        <input type="text" 
+                               id="promo" 
+                               name="promo" 
+                               placeholder="Enter promo code if available"
+                               pattern="[A-Z0-9]{6,10}">
+                    </p>
+
+                    <p>
+                        <label for="networking">What are you hoping to achieve at the summit?</label><br>
+                        <textarea id="networking" 
+                                  name="networking" 
+                                  rows="4" 
+                                  cols="50"
+                                  placeholder="e.g., Find co-founders, Learn about fintech trends, Network with investors, etc."
+                                  maxlength="500"></textarea>
+                    </p>
+
+                    <p>
+                        <label for="comments">Additional Comments</label><br>
+                        <textarea id="comments" 
+                                  name="comments" 
+                                  rows="4" 
+                                  cols="50"
+                                  placeholder="Any additional information you'd like to share..."
+                                  maxlength="500"></textarea>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                        <label for="newsletter">Subscribe to Kenya Tech Summit newsletter</label><br>
+                        
+                        <input type="checkbox" id="whatsapp-updates" name="whatsapp-updates" value="yes">
+                        <label for="whatsapp-updates">Receive updates via WhatsApp</label><br>
+                        
+                        <input type="checkbox" id="terms" name="terms" value="accepted" required>
+                        <label for="terms">I agree to the Terms and Conditions *</label><br>
+                        
+                        <input type="checkbox" id="privacy" name="privacy" value="accepted" required>
+                        <label for="privacy">I agree to the Privacy Policy *</label><br>
+                        
+                        <input type="checkbox" id="data-act" name="data-act" value="accepted" required>
+                        <label for="data-act">I consent to data processing as per Kenya Data Protection Act *</label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="reset">Reset Form</button>
+                    <button type="submit">Complete Registration</button>
+                </p>
+            </form>
+        </main>
+
+        <footer>
+            <hr>
+            <p>&copy; 2025 Kenya Tech Summit. All rights reserved.</p>
+            <p>Venue: Kenyatta International Convention Centre (KICC), Nairobi</p>
+            <p>Questions? Contact us at <a href="mailto:info@kenyatechsummit.co.ke">info@kenyatechsummit.co.ke</a></p>
+            <p>WhatsApp: <a href="tel:+254700123456">+254 700 123 456</a></p>
+        </footer>
+    </div>
+</body>
+</html>
